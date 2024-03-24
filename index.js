@@ -13,6 +13,9 @@ const answer = await inquirer.prompt([{
 if (answer.userGuessedNumber === randomNumber) {
     console.log(chalk.green.bold.italic("Congratulation! you guessed right number.==>>", answer.userGuessedNumber));
 }
+else if (answer.userGuessedNumber > 6) {
+    console.log(chalk.red.bold.italic("You choosed invalid number.==>>", answer.userGuessedNumber));
+}
 else {
     console.log(chalk.blue.bold("Sorry! Number ==>>", answer.userGuessedNumber, "wrong answer, please try again."));
 }
