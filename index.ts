@@ -8,7 +8,6 @@
 
 import inquirer from "inquirer";
 import chalk from "chalk";
-import { toASCII } from "punycode";
 
 const randomNumber = Math.floor(Math.random() * 6 + 1);
 

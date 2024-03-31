@@ -1,6 +1,6 @@
 {
   "name": "sss24-cli-number-guess",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "",
   "main": "index.js",
   "type": "module",
